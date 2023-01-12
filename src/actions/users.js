@@ -1,9 +1,9 @@
 const RECEIVE_USERS = "RECEIVE_USERS";
 
-const receiveUsers = (tweets) => {
+const receiveUsers = (users) => {
 	return {
 		type: RECEIVE_USERS,
-		tweets,
+		users,
 	};
 };
 
